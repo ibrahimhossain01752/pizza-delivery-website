@@ -1,0 +1,18 @@
+/* Edge
+--------------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+	/* Steps */
+	.bt_bb_steps .bt_bb_inner_step .bt_bb_inner_step_line::before {
+		transform: rotate(90deg);
+		margin-left: 1rem;
+		margin-top: -2rem;
+		margin-bottom: 2rem;
+	}
+	.bt_bb_steps.bt_bb_icons_style_outline.bt_bb_icons_size_small.bt_bb_line_style_solid .bt_bb_inner_step .bt_bb_inner_step_line::before {
+		margin-top: 1rem !important;
+		transform: rotate(180deg) !important;
+	}
+	.bt_bb_position_vertical.bt_bb_line_style_solid.bt_bb_steps .bt_bb_inner_step .bt_bb_inner_step_line:before {
+		transform: rotate(180deg) !important;
+	}
+}

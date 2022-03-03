@@ -1,0 +1,40 @@
+[
+    {
+       
+        "img":"https://eatsy.bold-themes.com/burger/wp-content/uploads/sites/2/2021/02/product_22-640x640.jpg",
+        "title":"Bacon Alfredo",
+        "details":"olives red onion, oregano, tomato sauce, eggplant, zucchini, red pepper, caper",
+        "price":"$8.00"
+    },
+    {   
+        "img":"https://eatsy.bold-themes.com/burger/wp-content/uploads/sites/2/2021/02/product_17-640x640.jpg",
+        "title":"Margherita",
+        "details":"tomato sauce, olives red onion, oregano, eggplant, zucchini, red pepper, caper",
+        "price":"$6.00"
+    },
+    {   
+        "img":"https://eatsy.bold-themes.com/burger/wp-content/uploads/sites/2/2021/02/product_15.jpg",
+        "title":"Sorriso",
+        "details":"zucchini, tomato sauce, eggplant, red pepper, olives red onion, caper, oregano",
+        "price":"$7.00"
+    },
+    {  
+        "img":"https://eatsy.bold-themes.com/burger/wp-content/uploads/sites/2/2021/02/product_19-640x640.jpg",
+        "title":"Ortolana",
+        "details":"tomato sauce, eggplant, zucchini, red pepper, olives red onion, caper, oregano",
+        "price":"$9.00"
+    },
+    {    
+        "img":"https://eatsy.bold-themes.com/burger/wp-content/uploads/sites/2/2021/02/product_11-640x640.jpg",
+        "title":"Buffalo Chicken",
+        "details":"eggplant, tomato sauce, zucchini, red pepper, olives red onion, caper, oregano",
+        "price":"$10.00"
+    },
+    {    
+        "img":"https://eatsy.bold-themes.com/burger/wp-content/uploads/sites/2/2021/02/product_23-640x640.jpg",
+        "title":"Doppio Pepperoni",
+        "details":"oregano, tomato sauce, eggplant, zucchini, red pepper, olives red onion",
+        "price":"$11.00"
+    }
+    
+]
