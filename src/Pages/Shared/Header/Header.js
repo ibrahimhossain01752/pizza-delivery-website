@@ -12,18 +12,18 @@ const Header = () => {
         <>
            <Navbar className="bg" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Travel</Navbar.Brand>
+                    <Navbar.Brand href="#home"> <img src="http://themes.templatescoder.com/pizzon/html/demo/1-0/images/header-logo.png"/> </Navbar.Brand>
                     {/* http://themes.templatescoder.com/pizzon/html/demo/1-0/images/header-logo.png */}
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={HashLink} className="text-light" to="/home">Home</Nav.Link>
-                        {user?.email && <Nav.Link as={HashLink} className="text-light" to="/myOrder">MyOrder</Nav.Link>}
-                        {user?.email && <Nav.Link as={HashLink} className="text-light" to="/addService">Add-Service</Nav.Link>}
+                        <Nav.Link as={HashLink} className="text-light header33" to="/home">Home</Nav.Link>
+                        {user?.email && <Nav.Link as={HashLink} className="text-light header33" to="/myOrder">MyOrder</Nav.Link>}
+                        {user?.email && <Nav.Link as={HashLink} className="text-light header33" to="/addService">Add-Service</Nav.Link>}
                         <Navbar.Text><a href="#login" className="text-decoration-none p-2 text-warning"> {user?.displayName} </a> </Navbar.Text>
                         {user?.email ?
                             <Button onClick={logout} variant="primary">logOut</Button>
                             :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            <Nav.Link as={Link} to="/login" className="header33">Login</Nav.Link>
                         }
 
                         {/* <Navbar.Text><a href="#login" className="text-decoration-none ">  {user?.displayName}</a> </Navbar.Text> */}

@@ -16,10 +16,11 @@ a:hover {
 .teamWrapper {
     margin-top: 50px;
 }
-.container {
+.userIn {
   --container: 1160px;
   max-width: var(--container);
   margin: auto;
+  margin-bottom: 70px;
 }
 .teamGrid {
     display: grid;
@@ -111,4 +112,8 @@ a:hover {
     background: #f4f5f7;
     border-radius: 50%;
     margin: 5px;
+}
+
+.header-review{
+    color:red;
 }
