@@ -1,0 +1,57 @@
+ .banner-main2{
+    background: url('https://img.freepik.com/free-photo/smiling-young-woman-pizza-delivery-man-with-megaphone-holding-pizza-yellow-background-banner_164357-10897.jpg?w=996');
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 460px;
+    padding: 40px;
+    /* padding-top: -50px; */
+}
+.banner-title22{
+    margin-right: -340px;
+    margin-top: 30px;
+}
+.heading2{
+    margin-right: -393px;
+    color: red;
+}
+.heading3{
+    margin-right: -540px;
+    display: block;
+    /* color: gray; */
+}
+.heading4{
+    margin-right: -520px;
+    display: block;
+}
+.heading5{
+    margin-right: -536px;
+    display: block;
+}
+.heading6{
+    margin-right: -544px;
+    display: block;
+}
+.heading7{
+    margin-right: -322px;
+    display: block;
+}
+.banner3{
+    /* margin-right: -220px; */
+}
+.puschase{
+    border-radius: 5px;
+    background-color: red;
+    border: red;
+    color: white;
+    padding:6px;
+}
+ 
+.demo{
+    border-radius: 5px;
+    background-color:white;
+    border:white;
+    color:red;
+    padding:6px;
+}
+ 

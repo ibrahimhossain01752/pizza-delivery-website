@@ -3,12 +3,55 @@
     margin-right: 70px;
 }
 .review{
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    
+    align-items:flex-end;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-bottom: 80px;
+    margin: 0%;
+    gap: 0 auto;
+}
+
+.btn22{
+    margin-bottom: 41px;
+    background-color: red;
+    border-radius:5px;
+    border-color: red;
+    color: white;
+    font-weight:400;
+}
+
+.pizza{
+    margin-top:15px;
+    /* background-color: beige; */
+}
+.pizza-2{
+    background-color: rgba(128, 128, 128, 0.219);
+    padding-bottom: 40px;
+}
+.pizza-card{
+    /* background-color:rgba(255, 255, 0, 0.356); */
+}
+
+.image1{
+    /* background-color:rgba(255, 255, 0, 0.356); */
+}
+
+.card-name{
+    color: red;
+    margin-top:0px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    padding:7px;
+    /* margin-top: 70px; */
+}
+
+.card-section{
+   margin-top:50px;
+   padding:40px;
 }
